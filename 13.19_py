@@ -1,0 +1,14 @@
+import numpy as np
+
+def main():
+    # 生成一个包含 100 个随机数的一维数组
+    random_array = np.random.rand(100)
+
+    # 计算随机数组的平均值
+    mean_value = np.mean(random_array)
+
+    # 打印结果
+    print("随机数组的平均值为:", mean_value)
+
+if __name__ == "__main__":
+    main()
