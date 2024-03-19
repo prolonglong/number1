@@ -8,7 +8,7 @@ def main():
     mean_value = np.mean(random_array)
 
     # 打印结果
-    print("该随机数组的平均值为:", mean_value)
+    print("随机数组的平均值为:", mean_value)
 
 if __name__ == "__main__":
     main()
